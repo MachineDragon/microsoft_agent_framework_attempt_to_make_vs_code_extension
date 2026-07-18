@@ -1,0 +1,5 @@
+# Ignore everything in this workspace.
+*
+
+# Keep this ignore file visible if this folder is ever initialized as a Git repo.
+!.gitignore
