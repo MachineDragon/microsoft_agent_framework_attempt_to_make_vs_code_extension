@@ -1,0 +1,201 @@
+2026-07-12 11:58:40.544 [info] Python-envs extension version: 1.36.0
+2026-07-12 11:58:40.544 [info] 
+=== Python Envs Configuration Levels ===
+2026-07-12 11:58:40.544 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-07-12 11:58:40.544 [info] [pet] Starting Python Locator C:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\python-env-tools\bin\pet.exe server
+2026-07-12 11:58:40.551 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-07-12 11:58:40.551 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-07-12 11:58:40.551 [info] Registering poetry manager (environments will be discovered lazily)
+2026-07-12 11:58:40.581 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension"],"environmentDirectories":["c:/Users/brian/Desktop/microsoft-agent-framework - attempt to make vs code extension/.venv","c:/Users/brian/Desktop/microsoft-agent-framework - attempt to make vs code extension/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension\\.vscode-smoke-user-data\\User\\globalStorage\\ms-python.vscode-python-envs\\pythonLocator"}
+2026-07-12 11:58:40.589 [info] Refreshing Pyenv Environments
+2026-07-12 11:58:40.589 [info] Refreshing pyenv environments
+2026-07-12 11:58:40.589 [info] Refreshing Pipenv Environments
+2026-07-12 11:58:40.589 [info] Refreshing pipenv environments
+2026-07-12 11:58:40.589 [info] Refreshing Poetry Environments
+2026-07-12 11:58:40.589 [info] Refreshing poetry environments
+2026-07-12 11:58:40.822 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension"],"environmentDirectories":["c:/Users/brian/Desktop/microsoft-agent-framework - attempt to make vs code extension/.venv","c:/Users/brian/Desktop/microsoft-agent-framework - attempt to make vs code extension/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension\\.vscode-smoke-user-data\\User\\globalStorage\\ms-python.vscode-python-envs\\pythonLocator"}
+2026-07-12 11:58:40.921 [error] [pet] [2m   0.371110400s[0m [33m WARN[0m [2mpet_python_utils::cache[0m[2m:[0m Cache directory has already been set to "c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension\\.vscode-smoke-user-data\\User\\globalStorage\\ms-python.vscode-python-envs\\pythonLocator". Cannot change it now.
+
+2026-07-12 11:58:40.979 [error] [pet] [2m   0.444893500s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:41.006 [info] Discovered env: C:\Users\brian\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\python.exe
+2026-07-12 11:58:41.014 [info] Discovered env: C:\Users\brian\AppData\Local\Programs\Python\Python313\python.exe
+2026-07-12 11:58:41.020 [error] [pet] [2m   0.502200400s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   0.502279000s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__"
+
+2026-07-12 11:58:41.020 [info] Discovered env: C:\Users\brian\AppData\Local\Python\pythoncore-3.14-64\python.exe
+2026-07-12 11:58:41.022 [error] [pet] [2m   0.509271600s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   0.509325400s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__"
+
+2026-07-12 11:58:41.022 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.025 [info] Discovered env: C:\Users\brian\.local\bin\python3.11.exe
+2026-07-12 11:58:41.026 [info] Resolved Python Environment c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.030 [error] [pet] [2m   0.517833100s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   0.517882200s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__"
+
+2026-07-12 11:58:41.035 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:41.047 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.063 [info] Resolved Python Environment c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.087 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:41.480 [info] Found venv environment: cpython-3.11.15-windows-x86_64-none (3.11.15)
+2026-07-12 11:58:41.481 [error] [pet] [2m   0.969095200s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:41.524 [error] [pet] [2m   0.983686000s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+[2m   0.984827900s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+[2m   1.000525500s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.000578600s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__"
+[2m   1.005578400s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.005618500s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__"
+[2m   1.010023000s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.010059500s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__"
+
+2026-07-12 11:58:41.533 [info] Discovered env: C:\Users\brian\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\python.exe
+2026-07-12 11:58:41.535 [info] Discovered env: C:\Users\brian\AppData\Local\Programs\Python\Python313\python.exe
+2026-07-12 11:58:41.536 [info] Discovered env: C:\Users\brian\AppData\Local\Python\pythoncore-3.14-64\python.exe
+2026-07-12 11:58:41.536 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.537 [info] Found venv environment: .venv (3.13.5.final.0)
+2026-07-12 11:58:41.537 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:41.537 [info] Discovered env: C:\Users\brian\.local\bin\python3.11.exe
+2026-07-12 11:58:41.540 [info] Found venv environment: .venv-1 (3.14.2.final.0)
+2026-07-12 11:58:41.548 [info] Python API: Changed environment from undefined to .venv (3.13.5.final.0) for: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:58:41.548 [info] Internal: Changed environment from undefined to .venv (3.13.5.final.0) for: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:58:41.571 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:41.571 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.714 [info] Discovered env: C:\Users\brian\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\python.exe
+2026-07-12 11:58:41.714 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.722 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at L (c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:629081)
+	at async V (c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:629206)
+	at async t.registerCondaFeatures (c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:648591)
+	at async t.safeRegister (c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:290365)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:782813)]
+2026-07-12 11:58:41.724 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-07-12 11:58:41.733 [info] [interpreterSelection] microsoft-agent-framework - attempt to make vs code extension: .venv (3.13.5.final.0) (source: autoDiscovery)
+2026-07-12 11:58:41.733 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-07-12 11:58:41.750 [error] [pet] [2m   1.229632500s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:41.757 [info] Python API: Changed environment from undefined to Python 3.14.2 for: global
+2026-07-12 11:58:41.757 [info] Internal: Changed environment from undefined to Python 3.14.2 for: global
+2026-07-12 11:58:41.758 [info] [interpreterSelection] global: Python 3.14.2 (source: autoDiscovery)
+2026-07-12 11:58:41.767 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:41.792 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.799 [error] [pet] [2m   1.286987800s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:41.799 [error] [pet] [2m   1.287091200s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:41.801 [info] Discovered env: C:\Users\brian\AppData\Local\Programs\Python\Python313\python.exe
+2026-07-12 11:58:41.802 [info] Discovered env: C:\Users\brian\AppData\Local\Python\pythoncore-3.14-64\python.exe
+2026-07-12 11:58:41.808 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:41.815 [error] [pet] [2m   1.297556400s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.303489800s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__"
+
+2026-07-12 11:58:41.816 [info] Discovered env: C:\Users\brian\.local\bin\python3.11.exe
+2026-07-12 11:58:41.821 [error] [pet] [2m   1.309192100s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.309281000s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__"
+
+2026-07-12 11:58:41.828 [error] [pet] [2m   1.315978400s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.316198400s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__"
+
+2026-07-12 11:58:41.846 [info] Refreshing pyenv environments
+2026-07-12 11:58:41.943 [info] Found venv environment: cpython-3.11.15-windows-x86_64-none (3.11.15)
+2026-07-12 11:58:41.946 [info] Found venv environment: .venv (3.13.5.final.0)
+2026-07-12 11:58:41.947 [info] Found venv environment: .venv-1 (3.14.2.final.0)
+2026-07-12 11:58:41.951 [error] [pet] [2m   1.438434500s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:41.951 [info] Python API: Changed environment from .venv (3.13.5.final.0) to .venv (3.13.5.final.0) for: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:58:41.952 [info] Internal: Changed environment from .venv (3.13.5.final.0) to .venv (3.13.5.final.0) for: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:58:41.952 [info] Discovered env: C:\Users\brian\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\python.exe
+2026-07-12 11:58:41.952 [error] [pet] [2m   1.440123100s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:41.953 [error] [pet] [2m   1.440927800s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:41.955 [info] Discovered env: C:\Users\brian\AppData\Local\Programs\Python\Python313\python.exe
+2026-07-12 11:58:41.955 [info] Discovered env: C:\Users\brian\AppData\Local\Python\pythoncore-3.14-64\python.exe
+2026-07-12 11:58:41.958 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.962 [error] [pet] [2m   1.449845500s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.449898300s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__"
+
+2026-07-12 11:58:41.967 [info] Discovered env: C:\Users\brian\.local\bin\python3.11.exe
+2026-07-12 11:58:41.972 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:41.973 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:41.981 [error] [pet] [2m   1.467785500s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+
+2026-07-12 11:58:41.981 [error] [pet] [2m   1.469320300s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__"
+
+2026-07-12 11:58:41.989 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:41.990 [error] [pet] [2m   1.478581200s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.478634300s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__"
+
+2026-07-12 11:58:42.088 [info] Discovered env: C:\Users\brian\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\python.exe
+2026-07-12 11:58:42.089 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:42.089 [error] [pet] [2m   1.577272600s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:42.091 [error] [pet] [2m   1.578892700s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:42.093 [error] [pet] [2m   1.580517900s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:42.094 [info] Discovered env: C:\Users\brian\AppData\Local\Programs\Python\Python313\python.exe
+2026-07-12 11:58:42.095 [info] Discovered env: C:\Users\brian\AppData\Local\Python\pythoncore-3.14-64\python.exe
+2026-07-12 11:58:42.102 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:42.103 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:42.103 [info] Discovered env: C:\Users\brian\.local\bin\python3.11.exe
+2026-07-12 11:58:42.105 [error] [pet] [2m   1.592514500s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.592659900s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__"
+
+2026-07-12 11:58:42.113 [error] [pet] [2m   1.601208300s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.601295400s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__"
+
+2026-07-12 11:58:42.120 [error] [pet] [2m   1.607271000s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.608117800s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__"
+
+2026-07-12 11:58:42.122 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:42.145 [info] Pipenv not found via settings, cache, or PATH
+2026-07-12 11:58:42.146 [info] Refreshing pipenv environments
+2026-07-12 11:58:42.275 [error] [pet] [2m   1.760660300s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:42.277 [error] [pet] [2m   1.763716700s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:42.289 [error] [pet] [2m   1.773026200s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-07-12 11:58:42.289 [info] Discovered env: C:\Users\brian\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\python.exe
+2026-07-12 11:58:42.291 [info] Discovered env: C:\Users\brian\AppData\Local\Programs\Python\Python313\python.exe
+2026-07-12 11:58:42.291 [info] Discovered env: C:\Users\brian\AppData\Local\Python\pythoncore-3.14-64\python.exe
+2026-07-12 11:58:42.291 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:42.293 [info] Discovered env: C:\Users\brian\.local\bin\python3.11.exe
+2026-07-12 11:58:42.300 [error] [pet] [2m   1.783527600s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.788012000s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python.exe.__target__"
+
+2026-07-12 11:58:42.300 [info] Discovered env: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:42.317 [error] [pet] [2m   1.805244200s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+
+2026-07-12 11:58:42.317 [error] [pet] [2m   1.805311300s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe.__target__"
+
+2026-07-12 11:58:42.318 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv-1\Scripts\python.exe
+2026-07-12 11:58:42.318 [info] Resolved environment during PET refresh: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:58:42.325 [error] [pet] [2m   1.812865000s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Failed to spawn Python to resolve info "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__": %1 is not a valid Win32 application. (os error 193)
+[2m   1.812908100s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.exe.__target__"
+
+2026-07-12 11:58:42.331 [info] Pipenv not found via settings, cache, or PATH
+2026-07-12 11:58:42.331 [info] Found 0 pipenv environments
+2026-07-12 11:58:42.354 [info] Pipenv not found via settings, cache, or PATH
+2026-07-12 11:58:42.354 [info] Found 0 pipenv environments
+2026-07-12 11:58:42.394 [info] Pipenv not found via settings, cache, or PATH
+2026-07-12 11:58:42.464 [info] Refreshing poetry environments
+2026-07-12 11:58:42.481 [info] Poetry executable not found
+2026-07-12 11:58:42.623 [info] Poetry executable not found
+2026-07-12 11:58:42.672 [info] Environment discovery complete: 6 environments found (Global: 3, venv: 3)

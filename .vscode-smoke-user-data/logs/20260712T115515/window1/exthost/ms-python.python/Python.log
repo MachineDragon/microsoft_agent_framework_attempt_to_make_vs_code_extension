@@ -1,0 +1,16 @@
+2026-07-12 11:55:20.481 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-07-12 11:55:20.593 [info] [test-by-project] Activating project-based testing mode
+2026-07-12 11:55:20.593 [info] [test-by-project] Discovering projects for workspace: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:55:20.593 [info] Native locator: Refresh started
+2026-07-12 11:55:20.593 [info] [test-by-project] Found 1 total Python projects from API
+2026-07-12 11:55:20.593 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-07-12 11:55:20.593 [info] [test-by-project] Creating adapter for: microsoft-agent-framework - attempt to make vs code extension at file:///c%3A/Users/brian/Desktop/microsoft-agent-framework%20-%20attempt%20to%20make%20vs%20code%20extension
+2026-07-12 11:55:20.644 [info] > pyenv which python
+2026-07-12 11:55:20.644 [info] cwd: ~\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:55:22.006 [info] [test-by-project] Registered 1 project(s) for c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:55:22.007 [info] [test-by-project] Activated 1 project(s) for c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:55:22.007 [info] [test-by-project] Subscribed to Python project changes
+2026-07-12 11:55:23.022 [info] Native locator: Refresh finished in 2421 ms
+2026-07-12 11:55:23.032 [info] Active interpreter [c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension]:  c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:55:25.796 [info] Starting Pylance language server.
+2026-07-12 11:56:12.779 [error] Unable to find workspace for given file

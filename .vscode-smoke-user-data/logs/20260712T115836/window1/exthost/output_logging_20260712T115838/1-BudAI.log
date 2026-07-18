@@ -1,0 +1,36 @@
+BudAI extension activated.
+Checking BudAI local services...
+Starting custom backend: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.vscode-smoke-user-data\User\globalStorage\budai.budai\backend-venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8081
+INFO:     Started server process [17140]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61044 - "GET /health HTTP/1.1" 200 OK
+BudAI services: custom backend ready, DevUI backend ready, Ollama ready.
+INFO:     127.0.0.1:55608 - "GET /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/storage/saved-workflows HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54360 - "GET /api/storage/user-agents-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55608 - "GET /api/agents/folders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55608 - "OPTIONS /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54360 - "OPTIONS /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /v1/models/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54360 - "PUT /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54360 - "PUT /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54360 - "PUT /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/storage/theme HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/agents/folders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "PUT /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54360 - "PUT /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55608 - "GET /v1/models/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63641 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64510 - "PUT /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64510 - "GET /api/storage/chat-prompt-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61020 - "GET /api/storage/direct-model-web-search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60648 - "GET /api/storage/direct-model-web-search-mode HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60647 - "GET /api/storage/tts-voice-uri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60625 - "OPTIONS /api/storage/app-store-storage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63027 - "GET /api/storage/chat-prompt-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52880 - "GET /api/storage/direct-model-web-search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/storage/direct-model-web-search-mode HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60625 - "GET /api/storage/tts-voice-uri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60799 - "PUT /api/storage/app-store-storage HTTP/1.1" 200 OK

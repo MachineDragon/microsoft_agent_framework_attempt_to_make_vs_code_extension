@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "executable": "C:\\Users\\brian\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "prefix": "C:\\Users\\brian\\AppData\\Local\\Python\\pythoncore-3.14-64",
+    "version": "3.14.2.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe",
+      "C:\\Users\\brian\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe"
+    ]
+  },
+  "symlinks": [
+    [
+      "C:\\Users\\brian\\AppData\\Local\\Python\\bin\\python3.14.exe",
+      {
+        "secs_since_epoch": 1768755525,
+        "nanos_since_epoch": 223798300
+      },
+      {
+        "secs_since_epoch": 1768755525,
+        "nanos_since_epoch": 223798300
+      }
+    ],
+    [
+      "C:\\Users\\brian\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      {
+        "secs_since_epoch": 1768755521,
+        "nanos_since_epoch": 976136700
+      },
+      {
+        "secs_since_epoch": 1768755521,
+        "nanos_since_epoch": 975110700
+      }
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+2026-07-12 11:58:36.607 [info] StorageMainService: creating application shared storage
+2026-07-12 11:58:36.698 [error] Error: Error mutex already exists
+    at Ls.installMutex (file:///C:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/main.js:561:26086)
+2026-07-12 11:58:36.714 [info] [shared storage] Creating shared storage database at 'c:\Users\brian\.vscode-shared\sharedStorage\state.vscdb' (wasCreated: false)
+2026-07-12 11:58:36.716 [info] [shared storage] Initializing fallback application storage (path: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.vscode-smoke-user-data\User\globalStorage\state.vscdb)
+2026-07-12 11:58:36.743 [info] [shared storage] Fallback application storage initialized with 89 items
+2026-07-12 11:58:36.755 [info] update#setState idle
+2026-07-12 11:59:06.815 [info] update#setState checking for updates
+2026-07-12 11:59:07.035 [info] update#setState idle
+2026-07-12 12:00:28.916 [info] Extension host with pid 19084 exited with code: 0, signal: unknown.

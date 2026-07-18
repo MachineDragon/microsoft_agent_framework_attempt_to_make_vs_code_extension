@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="microsoft-agent-framework-auto-open" Version="0.0.1" Publisher="local" />
+    <DisplayName>Microsoft Agent Framework Auto Open</DisplayName>
+    <Description xml:space="preserve">Opens the custom UI localhost page in VS Code for the Microsoft Agent Framework workspace.</Description>
+    <Categories>Other</Categories>
+    <Tags>localhost, simple-browser</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code" />
+  </Installation>
+  <Dependencies />
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+  </Assets>
+</PackageManifest>

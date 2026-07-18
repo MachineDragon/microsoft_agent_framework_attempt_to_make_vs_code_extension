@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "executable": "C:\\Users\\brian\\AppData\\Roaming\\uv\\python\\cpython-3.11-windows-x86_64-none\\python.exe",
+    "prefix": "C:\\Users\\brian\\AppData\\Roaming\\uv\\python\\cpython-3.11-windows-x86_64-none",
+    "version": "3.11.15.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "C:\\Users\\brian\\.local\\bin\\python3.11.exe",
+      "C:\\Users\\brian\\AppData\\Roaming\\uv\\python\\cpython-3.11-windows-x86_64-none\\python.exe"
+    ]
+  },
+  "symlinks": [
+    [
+      "C:\\Users\\brian\\.local\\bin\\python3.11.exe",
+      {
+        "secs_since_epoch": 1781464894,
+        "nanos_since_epoch": 257665000
+      },
+      {
+        "secs_since_epoch": 1781464894,
+        "nanos_since_epoch": 257665000
+      }
+    ],
+    [
+      "C:\\Users\\brian\\AppData\\Roaming\\uv\\python\\cpython-3.11-windows-x86_64-none\\python.exe",
+      {
+        "secs_since_epoch": 1781464892,
+        "nanos_since_epoch": 277197800
+      },
+      {
+        "secs_since_epoch": 1781464892,
+        "nanos_since_epoch": 276194800
+      }
+    ]
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "name": "budai",
+  "displayName": "BudAI",
+  "description": "Build with local open-source models in VS Code using Ollama, agents, tools, and workflow automation.",
+  "version": "0.0.1",
+  "publisher": "budai",
+  "icon": "media/icon.png",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Machine Learning",
+    "Other"
+  ],
+  "keywords": [
+    "ollama",
+    "agents",
+    "local ai",
+    "open source models",
+    "budai"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "budai.open",
+        "title": "BudAI: Open"
+      },
+      {
+        "command": "budai.restartServices",
+        "title": "BudAI: Restart Local Services"
+      },
+      {
+        "command": "budai.checkServices",
+        "title": "BudAI: Check Local Services"
+      },
+      {
+        "command": "budai.openOllamaDownload",
+        "title": "BudAI: Download Ollama"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "budai",
+          "title": "BudAI",
+          "icon": "media/bai-activity.svg"
+        }
+      ]
+    },
+    "views": {
+      "budai": [
+        {
+          "id": "budai.launcher",
+          "name": "BudAI"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "BudAI",
+      "properties": {
+        "budai.backend.host": {
+          "type": "string",
+          "default": "127.0.0.1",
+          "description": "Host used by the BudAI local backend."
+        },
+        "budai.backend.customPort": {
+          "type": "number",
+          "default": 8081,
+          "minimum": 1,
+          "maximum": 65535,
+          "description": "Local port used by the BudAI custom backend. Change this if another local service already uses the port."
+        },
+        "budai.backend.devuiPort": {
+          "type": "number",
+          "default": 8080,
+          "minimum": 1,
+          "maximum": 65535,
+          "description": "Development port for the Agent Framework DevUI backend."
+        },
+        "budai.backend.pythonPath": {
+          "type": "string",
+          "default": "python",
+          "description": "Python executable used to start the BudAI custom backend during local development."
+        },
+        "budai.backend.autoStart": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically start the BudAI custom backend when opening BudAI."
+        },
+        "budai.ollama.endpoint": {
+          "type": "string",
+          "default": "http://127.0.0.1:11434",
+          "description": "Local Ollama endpoint used by BudAI."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile",
+    "prepare:backend": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/prepare-backend.ps1",
+    "package:vsix": "npm run prepare:backend && vsce package --allow-missing-repository"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/vscode": "^1.96.0",
+    "@vscode/vsce": "^3.2.1",
+    "typescript": "^5.7.2"
+  }
+}

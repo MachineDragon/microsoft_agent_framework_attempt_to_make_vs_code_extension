@@ -1,0 +1,20 @@
+2026-07-12 11:55:24.093 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-07-12 11:55:24.618 [info] (22572): Server root directory: file:///c%3A/Users/brian/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-07-12 11:55:24.633 [info] (22572): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-07-12 11:55:24.634 [info] (22572): Starting service instance "microsoft-agent-framework - attempt to make vs code extension" for workspace "c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension"
+2026-07-12 11:55:25.785 [info] (22572): Loading background bundle file:///c%3A/Users/brian/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///c%3A/Users/brian/Desktop/microsoft-agent-framework%20-%20attempt%20to%20make%20vs%20code%20extension...
+2026-07-12 11:55:25.923 [info] (22572): FG(microsoft-agent-framework - attempt to make vs code extension): Setting environmentName for service "microsoft-agent-framework - attempt to make vs code extension": ".venv (3.13.5.final.0)"
+2026-07-12 11:55:25.924 [info] (22572): FG(microsoft-agent-framework - attempt to make vs code extension): Setting pythonPath for service "microsoft-agent-framework - attempt to make vs code extension": "c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe"
+2026-07-12 11:55:25.924 [info] (22572): FG(microsoft-agent-framework - attempt to make vs code extension): No include entries specified; assuming c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension
+2026-07-12 11:55:25.925 [info] (22572): FG(microsoft-agent-framework - attempt to make vs code extension): Auto-excluding **/node_modules
+2026-07-12 11:55:25.926 [info] (22572): FG(microsoft-agent-framework - attempt to make vs code extension): Auto-excluding **/__pycache__
+2026-07-12 11:55:25.927 [info] (22572): FG(microsoft-agent-framework - attempt to make vs code extension): Auto-excluding **/.*
+2026-07-12 11:55:26.141 [info] (22572): FG(microsoft-agent-framework - attempt to make vs code extension): Assuming Python version 3.13.5.final.0
+2026-07-12 11:55:26.397 [info] (22572): [Editable Installs] Starting dynamic pth file resolution for Python: c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe
+2026-07-12 11:55:26.413 [info] (22572): [Editable Installs] No sandbox available for Python c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.venv\Scripts\python.exe. Dynamic pth file resolution requires Python 3.13 or later.
+2026-07-12 11:55:27.027 [info] (22572): FG(microsoft-agent-framework - attempt to make vs code extension): Found 673 source files
+2026-07-12 11:55:27.051 [info] (22572): PQ(microsoft-agent-framework - attempt to make vs code extension): Priority queue background worker(2) root directory: file:///c%3A/Users/brian/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-07-12 11:55:27.052 [info] (22572): PQ(microsoft-agent-framework - attempt to make vs code extension): Priority queue background worker(2) started
+2026-07-12 11:55:27.068 [info] (22572): Settings have not changed. Skipping update.
+2026-07-12 11:55:27.071 [info] (22572): Starting Mcp server id:62018 ...
+2026-07-12 11:55:35.125 [info] (22572): Settings have not changed. Skipping update.

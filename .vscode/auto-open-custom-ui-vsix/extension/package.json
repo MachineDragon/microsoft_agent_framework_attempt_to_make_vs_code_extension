@@ -1,0 +1,17 @@
+{
+  "name": "microsoft-agent-framework-auto-open",
+  "displayName": "Microsoft Agent Framework Auto Open",
+  "description": "Opens the custom UI localhost page in VS Code for the Microsoft Agent Framework workspace.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "workspaceContains:.vscode/microsoft-agent-framework.auto-open-localhost"
+  ],
+  "main": "./extension.js"
+}

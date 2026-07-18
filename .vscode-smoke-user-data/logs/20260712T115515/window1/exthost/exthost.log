@@ -1,0 +1,65 @@
+2026-07-12 11:55:18.838 [info] Extension host with pid 20988 started
+2026-07-12 11:55:18.839 [info] Skipping acquiring lock for c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.vscode-smoke-user-data\User\workspaceStorage\123ae77cdefc9a3a28b2b5b0799757df.
+2026-07-12 11:55:18.938 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-12 11:55:18.975 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2026-07-12 11:55:18.983 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-12 11:55:19.882 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-07-12 11:55:19.916 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-07-12 11:55:19.956 [info] ExtensionService#_doActivateExtension local.microsoft-agent-framework-auto-open, startup: true, activationEvent: 'workspaceContains:.vscode/microsoft-agent-framework.auto-open-localhost'
+2026-07-12 11:55:19.960 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2026-07-12 11:55:20.088 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-07-12 11:55:20.148 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-12 11:55:20.409 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'api', root cause: ms-python.python
+2026-07-12 11:55:20.603 [info] Eager extensions activated
+2026-07-12 11:55:20.645 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-12 11:55:20.653 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-12 11:55:20.682 [info] ExtensionService#_doActivateExtension Anthropic.claude-code, startup: false, activationEvent: 'onStartupFinished'
+2026-07-12 11:55:20.972 [info] ExtensionService#_doActivateExtension budai.budai, startup: false, activationEvent: 'onStartupFinished'
+2026-07-12 11:55:22.151 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-07-12 11:55:23.048 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2026-07-12 11:55:25.475 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-07-12 11:55:25.493 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-07-12 11:55:25.520 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-07-12 11:55:26.422 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-07-12 11:55:27.070 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-07-12 11:58:35.929 [info] Extension host terminating: renderer closed the MessagePort
+2026-07-12 11:58:35.949 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-07-12 11:58:35.951 [error] Error: Channel has been closed
+	at r (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:542:3935)
+	at Object.error (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:542:4394)
+	at Object.dispose (c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:577510)
+	at c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:576097
+	at Array.forEach (<anonymous>)
+	at D.dispose (c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:576084)
+	at wn (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:429:736)
+	at z_._fn (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:18537)
+	at z_.dispose (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:429:1248)
+	at c_._deactivate (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:14854)
+	at file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12156
+	at Array.map (<anonymous>)
+	at c_._deactivateAll (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12144)
+	at c_.terminate (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12495)
+	at i.terminate (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:541:1072)
+	at aa (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:11797)
+	at MessagePortMain.<anonymous> (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:8211)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-07-12 11:58:35.954 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.re [as deactivate] (c:\Users\brian\.vscode\extensions\ms-python.vscode-python-envs-1.36.0-win32-x64\dist\extension.js:2:770294)
+	at c_._deactivate (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:14629)
+	at file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12156
+	at Array.map (<anonymous>)
+	at c_._deactivateAll (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12144)
+	at c_.terminate (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12495)
+	at i.terminate (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:541:1072)
+	at aa (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:11797)
+	at MessagePortMain.<anonymous> (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:8211)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-07-12 11:58:35.956 [error] Error: Channel has been closed
+	at o (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:542:3524)
+	at Object.appendLine (file:///c:/Users/brian/AppData/Local/Programs/Microsoft%20VS%20Code/fc3def6774/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:542:3663)
+	at ChildProcess.<anonymous> (c:\Users\brian\.vscode\extensions\budai.budai-0.0.1\out\extension.js:437:23)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-07-12 11:58:35.957 [info] Extension host with pid 20988 exiting with code 0

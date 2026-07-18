@@ -1,0 +1,43 @@
+2026-07-12 11:55:20.276 [info] [main] Log level: Info
+2026-07-12 11:55:20.277 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-07-12 11:55:20.277 [info] [askpassManager] Creating content-addressed askpass scripts at c:\Users\brian\Desktop\microsoft-agent-framework - attempt to make vs code extension\.vscode-smoke-user-data\User\globalStorage\vscode.git\askpass\70789581cae28aa7
+2026-07-12 11:55:20.443 [info] [askpassManager] Successfully created content-addressed askpass scripts
+2026-07-12 11:55:20.473 [info] [main] Using git "2.50.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2026-07-12 11:55:20.473 [info] [Model][doInitialScan] Initial repository scan started
+2026-07-12 11:55:20.561 [info] > git rev-parse --show-toplevel [68ms]
+2026-07-12 11:55:20.562 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:20.980 [info] > git rev-parse --show-toplevel [407ms]
+2026-07-12 11:55:20.981 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:21.195 [info] > git rev-parse --show-toplevel [162ms]
+2026-07-12 11:55:21.195 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:21.399 [info] > git rev-parse --show-toplevel [196ms]
+2026-07-12 11:55:21.399 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:21.524 [info] > git rev-parse --show-toplevel [116ms]
+2026-07-12 11:55:21.524 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:21.623 [info] > git rev-parse --show-toplevel [95ms]
+2026-07-12 11:55:21.623 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:21.742 [info] > git rev-parse --show-toplevel [113ms]
+2026-07-12 11:55:21.742 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:21.814 [info] > git rev-parse --show-toplevel [63ms]
+2026-07-12 11:55:21.814 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:21.882 [info] > git rev-parse --show-toplevel [61ms]
+2026-07-12 11:55:21.882 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:21.959 [info] > git rev-parse --show-toplevel [71ms]
+2026-07-12 11:55:21.959 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:22.029 [info] > git rev-parse --show-toplevel [65ms]
+2026-07-12 11:55:22.029 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:22.087 [info] > git rev-parse --show-toplevel [51ms]
+2026-07-12 11:55:22.087 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:22.229 [info] > git rev-parse --show-toplevel [137ms]
+2026-07-12 11:55:22.229 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:22.369 [info] > git rev-parse --show-toplevel [130ms]
+2026-07-12 11:55:22.369 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:22.453 [info] > git rev-parse --show-toplevel [78ms]
+2026-07-12 11:55:22.453 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:22.456 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-07-12 11:55:22.590 [info] > git rev-parse --show-toplevel [125ms]
+2026-07-12 11:55:22.590 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:22.680 [info] > git rev-parse --show-toplevel [79ms]
+2026-07-12 11:55:22.680 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-12 11:55:22.752 [info] > git rev-parse --show-toplevel [67ms]
+2026-07-12 11:55:22.752 [info] fatal: not a git repository (or any of the parent directories): .git

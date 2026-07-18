@@ -1,0 +1,24 @@
+{
+  "environment": {
+    "executable": "c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension\\.venv-1\\Scripts\\python.exe",
+    "prefix": "c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension\\.venv-1",
+    "version": "3.14.2.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension\\.venv-1\\Scripts\\python.exe"
+    ]
+  },
+  "symlinks": [
+    [
+      "c:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension\\.venv-1\\Scripts\\python.exe",
+      {
+        "secs_since_epoch": 1768755522,
+        "nanos_since_epoch": 677708000
+      },
+      {
+        "secs_since_epoch": 1783806660,
+        "nanos_since_epoch": 415978500
+      }
+    ]
+  ]
+}

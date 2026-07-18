@@ -1,0 +1,77 @@
+{
+    "telemetry.machineId": "a84b6150c96db3d95b9e24928ea02a4061d17b65fd95a2326668c15e2b785440",
+    "telemetry.sqmId": "{6B010DB3-395B-4EAD-AC85-3A76283D0E47}",
+    "telemetry.devDeviceId": "74b0b074-e35f-4b2a-8ed2-1f84ecd06644",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///c%3A/Users/brian/Desktop/microsoft-agent-framework%20-%20attempt%20to%20make%20vs%20code%20extension"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///c%3A/Users/brian/Desktop/microsoft-agent-framework%20-%20attempt%20to%20make%20vs%20code%20extension": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 187,
+            "auxiliaryBarWidth": 300,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 187,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "123ae77cdefc9a3a28b2b5b0799757df": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///c%3A/Users/brian/Desktop/microsoft-agent-framework%20-%20attempt%20to%20make%20vs%20code%20extension",
+            "backupPath": "C:\\Users\\brian\\Desktop\\microsoft-agent-framework - attempt to make vs code extension\\.vscode-smoke-user-data\\Backups\\2ce0664b82a78c2ab0f0dfb92447ccdc",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 1286,
+                "height": 753
+            }
+        },
+        "openedWindows": []
+    }
+}

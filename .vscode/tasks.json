@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build BudAI Extension",
+      "type": "shell",
+      "command": "npm run compile",
+      "group": "build",
+      "problemMatcher": "$tsc"
+    },
+    {
+      "label": "Start DevUI Backend (8080)",
+      "type": "shell",
+      "command": "cd agent-framework/python; python -m agent_framework_devui._cli C:\\Users\\brian\\Desktop\\microsoft-agent-framework --no-open",
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "servers"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Custom Backend (8081)",
+      "type": "shell",
+      "command": "cd custom-ui/backend; python -m uvicorn server:app --host 0.0.0.0 --port 8081",
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "servers"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Frontend (3000)",
+      "type": "shell",
+      "command": "cd custom-ui; npm run dev",
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "servers"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start All Servers",
+      "dependsOn": [
+        "Start DevUI Backend (8080)",
+        "Start Custom Backend (8081)",
+        "Start Frontend (3000)"
+      ],
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

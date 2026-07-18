@@ -1,0 +1,13 @@
+{
+  "input": "What is the weather in Seattle today?",
+  "metadata": {
+    "agent_configs": {
+      "DuckDuckGoSearchAgent": {
+        "name": "DuckDuckGoSearchAgent",
+        "instructions": "Please provide a question or topic you'd like me to search for. I'll use my knowledge to find relevant information on the web using DuckDuckGo.",
+        "model_id": "llama3:8b"
+      }
+    },
+    "orchestration_type": "concurrent"
+  }
+}

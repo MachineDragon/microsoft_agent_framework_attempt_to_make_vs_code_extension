@@ -1,0 +1,10 @@
+2026-07-12 11:58:37.856 [info] Started local extension host with pid 19084.
+2026-07-12 11:58:38.129 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-07-12 11:58:38.218 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-07-12 11:58:38.585 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-12 11:58:39.116 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-07-12 11:58:40.431 [info] [perf] Render performance baseline is 22ms
+2026-07-12 11:58:43.590 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-12 12:00:28.900 [warning] [backup tracker] suspended, ignoring unregister event file:///c%3A/Users/brian/Desktop/microsoft-agent-framework%20-%20attempt%20to%20make%20vs%20code%20extension/package.json 
+2026-07-12 12:00:28.901 [warning] [backup tracker] suspended, ignoring unregister event file:///c%3A/Users/brian/Desktop/microsoft-agent-framework%20-%20attempt%20to%20make%20vs%20code%20extension/.vscode/auto-open-custom-ui-extension/package.json 
+2026-07-12 12:00:28.901 [warning] [backup tracker] suspended, ignoring unregister event file:///c%3A/Users/brian/Desktop/microsoft-agent-framework%20-%20attempt%20to%20make%20vs%20code%20extension/agent-framework/python/samples/demos/chatkit-integration/frontend/package.json 

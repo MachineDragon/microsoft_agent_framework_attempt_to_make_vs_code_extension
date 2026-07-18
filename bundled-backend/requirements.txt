@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+websockets
+httpx
+pydantic
+python-multipart
+duckduckgo-search
+faster-whisper
+agent-framework-core
+agent-framework-ollama
+agent-framework-orchestrations
